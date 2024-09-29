@@ -1,0 +1,146 @@
+@media screen and (max-width: 576px) {
+    .nav-header-larger-screen{
+        display: none;
+    }
+
+    .nav-header-medium-screen{
+        display: none;
+    }
+
+    .nav-header-smaller-screen{
+        display: flex;
+        flex-direction: column !important;
+        
+    }
+
+    .nav-header-smaller-screen-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 8px 0;
+    }
+
+    .nav-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .left-container h1{
+        font-size: 30px !important;
+    }
+
+    .left-container h2{
+        font-size: 18px;
+    }
+
+    .left-container p{
+        font-size: 15px;
+    }
+
+    .right-container h1{
+        font-size: 30px;
+    }
+
+    .navbar img{
+        width: 200px !important;
+        height: 60px !important;
+        margin-left: 5px !important;
+    }
+
+    .nav-link-smaller-screen{
+        display: flex !important;
+        margin-left: 10px !important;
+    }
+
+    .navbar-btn{
+        margin-left: 10px !important; 
+        padding: 1px 25px !important;
+        font-size: 10px;
+    }
+
+    .box-container {
+        width: 380px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 15px;
+        border: 1px solid #e7e7e7;
+        padding: 10px;
+        border-radius: 4px;
+        border-bottom: 4px solid #e7e7e7;
+        transition: all 300ms ease-in-out;
+      }
+}
+
+
+ @media screen and (max-width: 768px) { 
+    .nav-header-larger-screen{
+        display: none;
+    }
+
+    .nav-header-medium-screen{
+        display: flex ;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin: 8px 0;
+    }
+
+    .nav-header-smaller-screen{
+        display: none;
+    }
+
+    .nav-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .navbar img {
+        width: 300px;
+        height: 80px;
+        margin-left: 60px;
+      }
+
+    .nav-link-smaller-screen{
+        display: flex;
+        margin-left: 40px !important;
+    }
+
+    .navbar-btn{
+        margin-left: 20px !important; 
+        padding: 5px 30px !important;
+        font-size: 18px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 40px;
+      }
+
+      .left-container{
+        width: 100%;
+        text-align: center;
+      }
+
+      .right-container{
+        width: 100%;
+        text-align: center;
+      }
+} 
