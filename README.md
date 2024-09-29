@@ -7,6 +7,10 @@
 </p>
 
 <p>
+  LIve Preview- https://candid-blini-65b64b.netlify.app/
+</p>
+
+<p>
   Project Preview
 </p>
 
